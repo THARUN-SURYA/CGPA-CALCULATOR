@@ -1,16 +1,19 @@
-marks = int(input("enter the marks:"))
-if(marks >= 90):
-grade = "O"
-elif(marks >=80 and <90):
-grade = "A+"
-elif(marks >=70 and <80);
-grade = "A"
-elfi(marks >=70 and <60):
-grade = "B+"
-elif(marks >=60 and <50):
-grade = "B"
-elif(marks >=50 and <40):
-grade = "c+"
+marks = int(input("Enter the marks: "))
+
+if marks >= 90:
+    grade = "O"
+elif marks >= 80 and marks < 90:
+    grade = "A+"
+elif marks >= 70 and marks < 80:
+    grade = "A"
+elif marks >= 60 and marks < 70:
+    grade = "B+"
+elif marks >= 50 and marks < 60:
+    grade = "B"
+elif marks >= 40 and marks < 50:
+    grade = "C+"
 else:
-grade = "U"
-printf("The grade is _ ",grade)
+    grade = "U"
+
+print("The grade is:", grade)
+
